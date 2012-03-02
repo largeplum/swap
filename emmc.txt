@@ -1,0 +1,1 @@
+card_detect_isr()(sdhci-tegra.c)-->sdhci_card_detect_callback()(sdhci.c)--> mmc_detect_change()(core.c)..> mmc_rescan()(core.c)--> mmc_attach_mmc()(mmc.c)-->mmc_add_card()(bus.c)--> device_add()
